@@ -12,7 +12,7 @@
 
 <?php
 if (isset($_POST['save'])) {
-	$cfgfile = 'settings.php';
+	$cfgfile = '../settings.php';
 	$cfgcont =	'<?php //settings.php'."\n"
 				.'// user data for MySQL DB'."\n"
 				.'  $db_cfg = array ('."\n"
@@ -31,7 +31,7 @@ if (isset($_POST['save'])) {
 }
 ?>
 	<h1>New Settings</h1>
-	<form method='post' action='install.php'>
+	<form method='post' action='create-settings.php'>
 		<p>
 			host: <input type='text' name='host'/><br />
 			user: <input type='text' name='user'/><br />
