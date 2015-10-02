@@ -2,7 +2,6 @@
 
 TNT note tagging
 
-
 ## Files ##
 
 * index.php:
@@ -13,3 +12,9 @@ TNT note tagging
 	contains settings, is created by install.php
 * install/tables/*:
 	(not used yet) layout for SQL tables
+
+## Design Goals ##
+### Posible Tag Types ###
+* Mentions: @NickName
+* Hashtags: #Topic (used e.g. for timeline)
+* Rulesets: §Rule (e.g. choose style: Blog/Forum/Wiki)
